@@ -1,0 +1,48 @@
+#main-content {
+    background-color: #dedede;
+    margin: 32px;
+    padding: 10px;
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.box p {
+    color: blueviolet;
+}
+
+article > p {
+    color: blueviolet;
+}
+
+article:hover {
+    color: red;
+}
+
+#btn {
+    border: none;
+    background-color: #9c9c9c;
+    color: #141414;
+    padding: 20px 40px;
+    border-radius: 30px;
+    transition: ease-in-out;
+}
+
+#btn:hover {
+    background-color: #141414;
+    color: #9c9c9c;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.padding {
+    width: 400px;
+    padding: 30px;
+    text-align: justify;
+    background-color: #dedede;
+    margin: auto;
+    text-decoration: line-through;
+}
